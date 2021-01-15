@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\CSE110-Lab1"
+		},
+		{
+			"name": "CSE110-Lab2",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CSE110-Lab2"
+	}
+}
