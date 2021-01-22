@@ -1,3 +1,17 @@
 #email {
     background-color: chartreuse;
 }
+* {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+nav {
+    border-style: solid;
+    border-color: indigo;
+    border-width: 10px;
+    border-radius: 50%;
+}
