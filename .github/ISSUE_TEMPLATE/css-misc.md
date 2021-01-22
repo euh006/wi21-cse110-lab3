@@ -2,7 +2,7 @@
 name: CSS Misc
 about: CSS involving everything else
 title: ''
-labels: ''
+labels: 'CSS: misc'
 assignees: ''
 
 ---
