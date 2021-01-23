@@ -3,12 +3,12 @@
 }
 
 #email {
-    position:absolute;
     background-color: chartreuse;
     color:rgba(200, 10, 100, 0.7);
 }
 
 h1 {
+    display:inline;
     position:fixed;
 }
 
@@ -54,4 +54,39 @@ form p {
 label + input {
     position:sticky;
     background-color:hsla(350, 50%, 50%, 0.5);
+}
+
+div > ul {
+    background-color:#10d293;
+}
+
+li ~ li { /* between two list elements, therefore not marking the first element */
+    margin:auto;
+    max-width: 20%;
+    background-color: hsla(350, 50%, 50%, 0.5);
+}
+
+button:active {
+    display:none;
+}
+
+label.input {
+    color:hsla(350, 50%, 50%, 0.5);
+}
+
+div.AboutMe2 {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.flex-container {
+    width: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: honeydew;
+}
+
+.flex-container > label {
+    margin: 20px;
 }
