@@ -78,7 +78,7 @@ div.AboutMe2 {
     font-family: 'Hachi Maru Pop', cursive;
 }
 
-.flex-container {
+.flex-seal {
     width: 100px;
     display: flex;
     flex-wrap:wrap;
@@ -87,6 +87,25 @@ div.AboutMe2 {
     background-color: honeydew;
 }
 
-.flex-container > label {
+.flex-seal > label {
     margin: 20px;
+}
+
+.AboutMe1 {
+    display:grid;
+    grid-column-gap: 40px;
+    background-color:lightcoral;
+    padding: 10px;
+    margin: 10px;
+}
+
+.AboutMe1-item {
+    grid-row-start: 1;
+    background-color: lightcyan;
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+      background-color: lightgreen;
+    }
 }
