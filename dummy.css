@@ -3,11 +3,17 @@
 }
 
 #email {
+    position:absolute;
     background-color: chartreuse;
     color:rgba(200, 10, 100, 0.7);
 }
 
+h1 {
+    position:fixed;
+}
+
 h2 {
+
     text-decoration: underline;
     color:rgb(100, 10, 100);
     font-size:30px;
@@ -20,6 +26,10 @@ nav {
     padding-bottom:25px;
     padding-left:10px;
     padding-right:500px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
     color:#10d293;
     border-style: solid;
     border-color: indigo;
@@ -29,4 +39,19 @@ nav {
 
 input[type="date"] {
     color:#E19;
+}
+
+img:hover, canvas {
+    min-width: 50%;
+    padding: 100px 300px 100px 100px;
+    margin: 50px 100px 150px 200px;
+}
+
+form p {
+    color:hsl(350, 50%, 50%);
+}
+
+label + input {
+    position:sticky;
+    background-color:hsla(350, 50%, 50%, 0.5);
 }
